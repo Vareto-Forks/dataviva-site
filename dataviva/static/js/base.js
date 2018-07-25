@@ -320,7 +320,6 @@ var selectorHrefCallback = Selector()
     });
 
 var select_attr = function(id) {
-  d3.select("#modal-selector-content").call(selectorHrefCallback.type(id));
   $('#modal-selector').modal('show');
 }
 

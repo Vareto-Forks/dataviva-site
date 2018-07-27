@@ -1,0 +1,35 @@
+.row-background-color {
+  background-color: #f3f6f3;
+}
+
+.search-icon-size {
+  width: 50px;
+  height: 50px;
+}
+
+.search-title-color {
+  color: rgb(196, 0, 8);
+}
+
+.info-color {
+  color: #999;
+} 
+
+.selector-depth-color {
+  color: #a25a6d;
+}
+
+.selection-button-margin {
+  margin-left: auto;
+}
+
+/* overrides Tachyons styles (tachyons-btn.css) */
+.ba {
+  color: #a25a6d;
+}
+
+.ba:hover {
+  color: #fff;
+  border-color: #a25a6d;
+  background-color: #a25a6d;
+}

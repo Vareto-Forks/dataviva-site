@@ -1,0 +1,51 @@
+.flag {
+  display: table;
+  width: 100%; }
+
+.flag--image, .flag--body {
+  display: table-cell;
+  vertical-align: middle; }
+  .flag--top .flag--image, .flag--top .flag--body {
+    vertical-align: top; }
+  .flag--bottom .flag--image, .flag--bottom .flag--body {
+    vertical-align: bottom; }
+
+.flag--image {
+  padding-right: 10px; }
+  .flag--image > img {
+    display: block;
+    max-width: none; }
+  .flag--rev .flag--image {
+    padding-right: 0;
+    padding-left: 10px; }
+
+.flag--body {
+  width: 100%; }
+
+/*
+  Aspect ratios for media objects i.e canvas, iframe, video, svg etc.
+  Defaults to 16x9
+*/
+.aspect-ratio {
+  height: 0;
+  padding-top: 56.25%;
+  position: relative; }
+
+.aspect-ratio--object {
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 100; }
+
+.overflow-container {
+  overflow-y: scroll; }
+
+.overflow-container { 
+  overflow-y: scroll; }
+
+.center {
+  margin-right: auto; margin-left: auto; }
